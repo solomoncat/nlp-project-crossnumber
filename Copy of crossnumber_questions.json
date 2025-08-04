@@ -1,0 +1,407 @@
+{
+  "generated_at": "2025-08-04T12:10:24.158716Z",
+  "total_questions": 10,
+  "attempts_made": 7203,
+  "questions": [
+    {
+      "id": 1,
+      "numbers": {
+        "abc": 361,
+        "cde": 129,
+        "efg": 947,
+        "gha": 703
+      },
+      "digits": {
+        "a": 3,
+        "b": 6,
+        "c": 1,
+        "d": 2,
+        "e": 9,
+        "f": 4,
+        "g": 7,
+        "h": 0
+      },
+      "clues": {
+        "1": "A 3-digit number that is a perfect square",
+        "2": "Followed by a number that is a palindrome when converted to base 2",
+        "3": "Then a number that is a prime number",
+        "4": "Then one that is a triangle number"
+      },
+      "global_rule": "a² + b² + c² + d² + e² + f² = 147",
+      "missing_digits": [
+        5,
+        8
+      ],
+      "question_text": {
+        "intro": "The numbers are abc, cde, efg, gha, where each letter is a distinct digit between 0 and 9 (no repeats). Note that the last digit of the first number (c) is the first digit of the second, and so on, with c, e, g, and a shared by some pair.",
+        "clues": [
+          "A 3-digit number that is a perfect square",
+          "Followed by a number that is a palindrome when converted to base 2",
+          "Then a number that is a prime number",
+          "Then one that is a triangle number"
+        ],
+        "global_rule": "a² + b² + c² + d² + e² + f² = 147"
+      }
+    },
+    {
+      "id": 2,
+      "numbers": {
+        "abc": 361,
+        "cde": 104,
+        "efg": 497,
+        "gha": 783
+      },
+      "digits": {
+        "a": 3,
+        "b": 6,
+        "c": 1,
+        "d": 0,
+        "e": 4,
+        "f": 9,
+        "g": 7,
+        "h": 8
+      },
+      "clues": {
+        "1": "A 3-digit number that is a perfect square",
+        "2": "Followed by a number that is a palindrome when converted to base 5",
+        "3": "Then a number that is a 1 above a triangle number",
+        "4": "Then one that is a 1 below a square"
+      },
+      "global_rule": "a² + b² + c² + d² + e² + f² = 143",
+      "missing_digits": [
+        2,
+        5
+      ],
+      "question_text": {
+        "intro": "The numbers are abc, cde, efg, gha, where each letter is a distinct digit between 0 and 9 (no repeats). Note that the last digit of the first number (c) is the first digit of the second, and so on, with c, e, g, and a shared by some pair.",
+        "clues": [
+          "A 3-digit number that is a perfect square",
+          "Followed by a number that is a palindrome when converted to base 5",
+          "Then a number that is a 1 above a triangle number",
+          "Then one that is a 1 below a square"
+        ],
+        "global_rule": "a² + b² + c² + d² + e² + f² = 143"
+      }
+    },
+    {
+      "id": 3,
+      "numbers": {
+        "abc": 596,
+        "cde": 647,
+        "efg": 783,
+        "gha": 305
+      },
+      "digits": {
+        "a": 5,
+        "b": 9,
+        "c": 6,
+        "d": 4,
+        "e": 7,
+        "f": 8,
+        "g": 3,
+        "h": 0
+      },
+      "clues": {
+        "1": "A 3-digit number that is a 1 above a triangle number",
+        "2": "Followed by a number that is a prime number",
+        "3": "Then a number that is a 1 below a square",
+        "4": "Then one that is a palindrome when converted to base 4"
+      },
+      "global_rule": "cde + efg ≡ gha mod 125",
+      "missing_digits": [
+        1,
+        2
+      ],
+      "question_text": {
+        "intro": "The numbers are abc, cde, efg, gha, where each letter is a distinct digit between 0 and 9 (no repeats). Note that the last digit of the first number (c) is the first digit of the second, and so on, with c, e, g, and a shared by some pair.",
+        "clues": [
+          "A 3-digit number that is a 1 above a triangle number",
+          "Followed by a number that is a prime number",
+          "Then a number that is a 1 below a square",
+          "Then one that is a palindrome when converted to base 4"
+        ],
+        "global_rule": "cde + efg ≡ gha mod 125"
+      }
+    },
+    {
+      "id": 4,
+      "numbers": {
+        "abc": 702,
+        "cde": 256,
+        "efg": 619,
+        "gha": 947
+      },
+      "digits": {
+        "a": 7,
+        "b": 0,
+        "c": 2,
+        "d": 5,
+        "e": 6,
+        "f": 1,
+        "g": 9,
+        "h": 4
+      },
+      "clues": {
+        "1": "A 3-digit number that is a 1 below a triangle number",
+        "2": "Followed by a number that is a perfect square",
+        "3": "Then a number that is a palindrome when converted to base 9",
+        "4": "Then one that is a prime number"
+      },
+      "global_rule": "abc + cde ≡ efg mod 113",
+      "missing_digits": [
+        3,
+        8
+      ],
+      "question_text": {
+        "intro": "The numbers are abc, cde, efg, gha, where each letter is a distinct digit between 0 and 9 (no repeats). Note that the last digit of the first number (c) is the first digit of the second, and so on, with c, e, g, and a shared by some pair.",
+        "clues": [
+          "A 3-digit number that is a 1 below a triangle number",
+          "Followed by a number that is a perfect square",
+          "Then a number that is a palindrome when converted to base 9",
+          "Then one that is a prime number"
+        ],
+        "global_rule": "abc + cde ≡ efg mod 113"
+      }
+    },
+    {
+      "id": 5,
+      "numbers": {
+        "abc": 234,
+        "cde": 401,
+        "efg": 178,
+        "gha": 862
+      },
+      "digits": {
+        "a": 2,
+        "b": 3,
+        "c": 4,
+        "d": 0,
+        "e": 1,
+        "f": 7,
+        "g": 8,
+        "h": 6
+      },
+      "clues": {
+        "1": "A 3-digit number that is a 1 above a fibonacci number",
+        "2": "Followed by a number that is a prime number",
+        "3": "Then a number that is a palindrome when converted to base 6",
+        "4": "Then one that is a 1 above a triangle number"
+      },
+      "global_rule": "a² + b² + c² + d² + e² + f² = 79",
+      "missing_digits": [
+        5,
+        9
+      ],
+      "question_text": {
+        "intro": "The numbers are abc, cde, efg, gha, where each letter is a distinct digit between 0 and 9 (no repeats). Note that the last digit of the first number (c) is the first digit of the second, and so on, with c, e, g, and a shared by some pair.",
+        "clues": [
+          "A 3-digit number that is a 1 above a fibonacci number",
+          "Followed by a number that is a prime number",
+          "Then a number that is a palindrome when converted to base 6",
+          "Then one that is a 1 above a triangle number"
+        ],
+        "global_rule": "a² + b² + c² + d² + e² + f² = 79"
+      }
+    },
+    {
+      "id": 6,
+      "numbers": {
+        "abc": 197,
+        "cde": 783,
+        "efg": 324,
+        "gha": 401
+      },
+      "digits": {
+        "a": 1,
+        "b": 9,
+        "c": 7,
+        "d": 8,
+        "e": 3,
+        "f": 2,
+        "g": 4,
+        "h": 0
+      },
+      "clues": {
+        "1": "A 3-digit number that is a palindrome when converted to base 6",
+        "2": "Followed by a number that is a 1 below a square",
+        "3": "Then a number that is a perfect square",
+        "4": "Then one that is a prime number"
+      },
+      "global_rule": "c² + d² + e² + f² + g² + h² = 142",
+      "missing_digits": [
+        5,
+        6
+      ],
+      "question_text": {
+        "intro": "The numbers are abc, cde, efg, gha, where each letter is a distinct digit between 0 and 9 (no repeats). Note that the last digit of the first number (c) is the first digit of the second, and so on, with c, e, g, and a shared by some pair.",
+        "clues": [
+          "A 3-digit number that is a palindrome when converted to base 6",
+          "Followed by a number that is a 1 below a square",
+          "Then a number that is a perfect square",
+          "Then one that is a prime number"
+        ],
+        "global_rule": "c² + d² + e² + f² + g² + h² = 142"
+      }
+    },
+    {
+      "id": 7,
+      "numbers": {
+        "abc": 617,
+        "cde": 704,
+        "efg": 432,
+        "gha": 256
+      },
+      "digits": {
+        "a": 6,
+        "b": 1,
+        "c": 7,
+        "d": 0,
+        "e": 4,
+        "f": 3,
+        "g": 2,
+        "h": 5
+      },
+      "clues": {
+        "1": "A 3-digit number that is a prime number",
+        "2": "Followed by a number that is a 1 above a triangle number",
+        "3": "Then a number that is a palindrome when converted to base 11",
+        "4": "Then one that is a perfect square"
+      },
+      "global_rule": "a² + b² + c² + d² + e² + f² = 111",
+      "missing_digits": [
+        8,
+        9
+      ],
+      "question_text": {
+        "intro": "The numbers are abc, cde, efg, gha, where each letter is a distinct digit between 0 and 9 (no repeats). Note that the last digit of the first number (c) is the first digit of the second, and so on, with c, e, g, and a shared by some pair.",
+        "clues": [
+          "A 3-digit number that is a prime number",
+          "Followed by a number that is a 1 above a triangle number",
+          "Then a number that is a palindrome when converted to base 11",
+          "Then one that is a perfect square"
+        ],
+        "global_rule": "a² + b² + c² + d² + e² + f² = 111"
+      }
+    },
+    {
+      "id": 8,
+      "numbers": {
+        "abc": 324,
+        "cde": 401,
+        "efg": 167,
+        "gha": 783
+      },
+      "digits": {
+        "a": 3,
+        "b": 2,
+        "c": 4,
+        "d": 0,
+        "e": 1,
+        "f": 6,
+        "g": 7,
+        "h": 8
+      },
+      "clues": {
+        "1": "A 3-digit number that is a perfect square",
+        "2": "Followed by a number that is a prime number",
+        "3": "Then a number that is a palindrome when converted to base 12",
+        "4": "Then one that is a 1 below a square"
+      },
+      "global_rule": "a² + b² + c² + d² + e² + f² = 66",
+      "missing_digits": [
+        5,
+        9
+      ],
+      "question_text": {
+        "intro": "The numbers are abc, cde, efg, gha, where each letter is a distinct digit between 0 and 9 (no repeats). Note that the last digit of the first number (c) is the first digit of the second, and so on, with c, e, g, and a shared by some pair.",
+        "clues": [
+          "A 3-digit number that is a perfect square",
+          "Followed by a number that is a prime number",
+          "Then a number that is a palindrome when converted to base 12",
+          "Then one that is a 1 below a square"
+        ],
+        "global_rule": "a² + b² + c² + d² + e² + f² = 66"
+      }
+    },
+    {
+      "id": 9,
+      "numbers": {
+        "abc": 529,
+        "cde": 946,
+        "efg": 613,
+        "gha": 385
+      },
+      "digits": {
+        "a": 5,
+        "b": 2,
+        "c": 9,
+        "d": 4,
+        "e": 6,
+        "f": 1,
+        "g": 3,
+        "h": 8
+      },
+      "clues": {
+        "1": "A 3-digit number that is a perfect square",
+        "2": "Followed by a number that is a triangle number",
+        "3": "Then a number that is a prime number",
+        "4": "Then one that is a palindrome when converted to base 6"
+      },
+      "global_rule": "a² + b² + c² + d² + e² + f² = 163",
+      "missing_digits": [
+        0,
+        7
+      ],
+      "question_text": {
+        "intro": "The numbers are abc, cde, efg, gha, where each letter is a distinct digit between 0 and 9 (no repeats). Note that the last digit of the first number (c) is the first digit of the second, and so on, with c, e, g, and a shared by some pair.",
+        "clues": [
+          "A 3-digit number that is a perfect square",
+          "Followed by a number that is a triangle number",
+          "Then a number that is a prime number",
+          "Then one that is a palindrome when converted to base 6"
+        ],
+        "global_rule": "a² + b² + c² + d² + e² + f² = 163"
+      }
+    },
+    {
+      "id": 10,
+      "numbers": {
+        "abc": 783,
+        "cde": 361,
+        "efg": 109,
+        "gha": 947
+      },
+      "digits": {
+        "a": 7,
+        "b": 8,
+        "c": 3,
+        "d": 6,
+        "e": 1,
+        "f": 0,
+        "g": 9,
+        "h": 4
+      },
+      "clues": {
+        "1": "A 3-digit number that is a 1 below a square",
+        "2": "Followed by a number that is a perfect square",
+        "3": "Then a number that is a palindrome when converted to base 5",
+        "4": "Then one that is a prime number"
+      },
+      "global_rule": "a² + b² + c² + d² + e² + f² = 159",
+      "missing_digits": [
+        2,
+        5
+      ],
+      "question_text": {
+        "intro": "The numbers are abc, cde, efg, gha, where each letter is a distinct digit between 0 and 9 (no repeats). Note that the last digit of the first number (c) is the first digit of the second, and so on, with c, e, g, and a shared by some pair.",
+        "clues": [
+          "A 3-digit number that is a 1 below a square",
+          "Followed by a number that is a perfect square",
+          "Then a number that is a palindrome when converted to base 5",
+          "Then one that is a prime number"
+        ],
+        "global_rule": "a² + b² + c² + d² + e² + f² = 159"
+      }
+    }
+  ]
+}
