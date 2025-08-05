@@ -4,6 +4,8 @@ import random
 import json
 from datetime import datetime
 
+random.seed(817309719)
+
 # === Utilities ===
 
 def is_power_of(base, n):
