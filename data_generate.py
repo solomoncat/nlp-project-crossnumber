@@ -120,6 +120,7 @@ def get_global_rule(a, b, c, digits, digit_names, name_a, name_b, name_c):
 # === Main Generator ===
 
 def generate_question_sequences(limit=150, filename="data/examples.jsonl"):
+    random.seed(817309719)
     os.makedirs("data", exist_ok=True)
     questions = []
     found = 0
